@@ -1,1 +1,1 @@
-print("Repo yükleme denemesi")
+print("Repo yükleme denemesi.")
