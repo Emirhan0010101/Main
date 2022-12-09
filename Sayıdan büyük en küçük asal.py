@@ -9,9 +9,8 @@ try :
             for a in range(2,girilen_sayı):
                 if (girilen_sayı%a==0) :
                     girilen_sayı = girilen_sayı+1
-                else:
-                    print(girilen_sayı)
-                    break
+            else:
+                print(girilen_sayı)
     else:
         print(2)                
 except ValueError:

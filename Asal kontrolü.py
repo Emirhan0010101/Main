@@ -6,13 +6,12 @@ try:
         elif (girilen_sayı==2) :
             print(girilen_sayı,"bir asal sayıdır.")
         else :
-         for a in range(2,girilen_sayı):
-            if(girilen_sayı%a==0):
+          for a in range(2,girilen_sayı):
+            if((girilen_sayı%a)==0):
                 print(girilen_sayı,"bir asal sayı değildir.")
                 break
-            else:
-                print(girilen_sayı,"bir asal sayıdır.")
-                break
+          else:
+            print(girilen_sayı,"bir asal sayıdır.")
     else :
         print("Lütfen sıfırdan büyük bir tam sayı girin.")
 except ValueError:
