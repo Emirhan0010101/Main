@@ -1,1 +1,0 @@
-print("Repo yükleme denemesi.")
